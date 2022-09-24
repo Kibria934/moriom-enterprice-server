@@ -1,0 +1,20 @@
+{
+  "name": "moriom-enterprice-server",
+  "version": "1.0.0",
+  "description": "This is for moriom enterprice shop.",
+  "main": "index.js",
+  "repository": "https://github.com/Kibria934/moriom-enterprice-server.git",
+  "author": "Md.Kibria",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "validate": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
