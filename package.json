@@ -6,6 +6,10 @@
   "repository": "https://github.com/Kibria934/moriom-enterprice-server.git",
   "author": "Md.Kibria",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "cors": "^2.8.5",
