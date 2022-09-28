@@ -1,3 +1,5 @@
-module.exports.createBrandService = async () => {
-  return await "succefully reached to the create Brand service";
+const Brand = require("../models/Brand.model");
+
+module.exports.createBrandService = async (doc) => {
+  return await Brand.create(doc);
 };

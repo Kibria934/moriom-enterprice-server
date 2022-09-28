@@ -9,7 +9,7 @@ const storeSchema = mongoose.Schema(
       type: String,
       trim: true,
       enum: {
-        vales: [
+        values: [
           "dhaka",
           "khulna",
           "rajshahi",
@@ -21,6 +21,7 @@ const storeSchema = mongoose.Schema(
         ],
         message: "{VALUE} is not valid!",
       },
+      unique: true,
       required: [true, "Please provide a store name."],
     },
     description: String,

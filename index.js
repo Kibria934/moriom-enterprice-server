@@ -43,7 +43,7 @@ app.get("/*", (req, res) => {
 
 // ######### Application ##########
 app.listen(port, () => {
-  console.log("moriom enterprice server is running on port", port);
+  console.log("moriom enterprice server is running on port".red.bold, port);
 });
 
-//https://moriom-enterprice-server-001.vercel.app/
+//https://moriom-enterprice-server.vercel.app/

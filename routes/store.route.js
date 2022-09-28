@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-router.route("/").get();
+const storeController = require("../controllers/store.controller");
+
+router.route("/").post(storeController.createStore);
 
 module.exports = router;

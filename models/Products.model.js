@@ -9,7 +9,7 @@ const productSchema = mongoose.Schema(
       required: [true, "Please provide a product name!"],
       trim: true,
       lowercase: true,
-      unique: [true, "Product name must be unique!"],
+      // unique: [true, "Product name must be unique!"],
       maxLength: [100, "Product name must be less than 100 character!"],
     },
     description: String,
@@ -43,20 +43,20 @@ const productSchema = mongoose.Schema(
     ],
     category: {
       type: String,
-      required: [true, "Please provide category name!"],
+      // required: [true, "Please provide category name!"],
     },
-    brand: {
-      name: {
-        type: String,
-        required: true,
-        trim: true,
-      },
-      id: {
-        type: ObjectId,
-        ref: "Brand",
-        required: true,
-      },
-    },
+    // brand: {
+    //   brandName: {
+    //     type: String,
+    //     // required: true,
+    //     trim: true,
+    //   },
+    //   id: {
+    //     type: ObjectId,
+    //     ref: "Brand",
+    //     // required: true,
+    //   },
+    // },
   },
   { timeStamps: true }
 );

@@ -82,7 +82,7 @@ const stockSchema = mongoose.Schema(
         type: String,
         trim: true,
         enum: {
-          vales: [
+          values: [
             "dhaka",
             "khulna",
             "rajshahi",
